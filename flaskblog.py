@@ -5,11 +5,12 @@ app = Flask(__name__)
 
 #Home Page Route
 @app.route("/")
-def hello():
+@app.route("/home")
+def home():
     #HTML Header Tag
     return "<h1>Home Page<h1>"
 
-#Home Page Route
+#About Page Route
 @app.route("/about")
 def about():
     #HTML Header Tag
