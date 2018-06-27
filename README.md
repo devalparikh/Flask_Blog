@@ -1,6 +1,5 @@
 # Flask_Blog
-
-
+#
 ## Install
 
 Install Flask
@@ -20,9 +19,7 @@ Run Flask app on Windows
 set FlASK_APP=flaskblog.py
 flask run
 ``` 
-#
-# 
-# 
+
 
 running web server at `http://127.0.0.1:5000/` or `http://localhost:5000/`
 
