@@ -4,22 +4,22 @@
 ## Install
 
 Install Flask
-
+``` 
 pip install Flask
 
 cd Flask_Blog
-
+``` 
 
 Run Flask app on Mac
-
+``` 
 export FLASK_APP=flaskblog.py
 flask run
-
+``` 
 Run Flask app on Windows
-
+``` 
 set FlASK_APP=flaskblog.py
 flask run
-
+``` 
 #
 # 
 # 
