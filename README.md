@@ -1,25 +1,45 @@
 # Flask_Blog
 
-### pip install Flask
 
-### cd Flask_Blog
+## Install
 
-MAC:
-### export FLASK_APP=flaskblog.py
+Install Flask
 
-WINDOWS:
-### set FlASK_APP=flaskblog.py
+pip install Flask
 
-### flask run
+cd Flask_Blog
 
-### running web server at http://127.0.0.1:5000/ or http://localhost:5000/
 
-### Close and Rerun web server to see any changes or run in debug mode
+Run Flask app on Mac
 
-MAC:
-### export FLASK_DEBUG=1
+export FLASK_APP=flaskblog.py
+flask run
 
-WINDOWS:
-### set FLASK_DEBUG=1
+Run Flask app on Windows
 
-### flask run
+set FlASK_APP=flaskblog.py
+flask run
+
+#
+# 
+# 
+
+running web server at `http://127.0.0.1:5000/` or `http://localhost:5000/`
+
+
+##### Close and Rerun web server to see any changes
+
+or
+
+### Run in debug mode:
+
+Mac
+``` 
+export FLASK_DEBUG=1
+```
+Windows:
+``` 
+set FLASK_DEBUG=1
+```
+
+
